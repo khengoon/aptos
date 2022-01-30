@@ -8,7 +8,7 @@ import subprocess
 from glob import glob
 from collections import OrderedDict
 import numpy as np
-import cv2
+# import cv2
 from skimage import measure
 import pandas as pd
 from tqdm import tqdm_notebook as tqdm
