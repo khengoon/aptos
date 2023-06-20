@@ -31,7 +31,7 @@ from torch.optim.optimizer import Optimizer, required
 from torch.autograd import Variable
 
 from utils import lottie_eye
-from streamlit_lottie import st_lottie
+# from streamlit_lottie import st_lottie
 from model import *
 from pathlib import Path
 
@@ -40,7 +40,7 @@ from pathlib import Path
 
 ################################################################################
 
-st_lottie(lottie_eye, height=200)
+# st_lottie(lottie_eye, height=200)
 
 st.title('APTOS 2019 Blindness Detection')
 
